@@ -1,0 +1,50 @@
+{
+    "projects": [
+      {
+        "id": 0,
+        "project_name": "Random Quote Generator",
+        "description": "A Random Quote Generator that displays a randomly selected quote each time the user clicks a button.",
+        "technologies": ["Javascript"],
+        "live_link": "https://eboniejc.github.io/Tech-degree-project-1/",
+        "github_link": "https://github.com/eboniejc/Tech-degree-project-1",
+        "image_urls": ["images/pj1_1.png", "images/pj1_2.png"]
+      },
+      {
+        "id": 1,
+        "project_name": "Data Pagination and Filtering",
+        "description": "Display and navigate pages of students.",
+        "technologies": ["Javascript"],
+        "live_link": "https://eboniejc.github.io/Tech-degree-project-2/",
+        "github_link": "https://github.com/eboniejc/Tech-degree-project-2",
+        "image_urls": ["images/p2_1.png","images/p2_2.png"]
+      },
+      {
+        "id": 2,
+        "project_name": "Interactive Form",
+        "description": "Creates an interactive form for a conference registration.",
+        "technologies": ["Javascript"],
+        "live_link": "https://eboniejc.github.io/Tech-degree-project-3/",
+        "github_link": "https://github.com/eboniejc/Tech-degree-project-3",
+        "image_urls": ["images/p3_1.png","images/p3_2.png"]
+      },
+      {
+        "id": 3,
+        "project_name": "Game Show App",
+        "description": "Created a guessing game using random phrases.",
+        "technologies": ["Javascript", "Object-Oriented Programming"],
+        "live_link": "https://eboniejc.github.io/Tech-degree-project-4/",
+        "github_link": "https://github.com/eboniejc/Tech-degree-project-4",
+        "image_urls": ["images/p4_1.png","images/p4_2.png"]
+      },
+      {
+        "id": 4,
+        "project_name": "Employee Directory",
+        "description": "Used API to create an employee directory",
+        "technologies": ["Javascript", "API"],
+        "live_link": "https://eboniejc.github.io/Tech-degree-project-5/",
+        "github_link": "https://github.com/eboniejc/Tech-degree-project-5",
+        "image_urls": ["images/p5_1.png","images/p5_2.png"]
+      }
+    ]
+  }
+  

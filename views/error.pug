@@ -1,0 +1,12 @@
+extends layout.pug
+
+block content
+  nav.nav
+    a(href='/')
+      span &larr;
+      |  Back
+
+  h1 Error #{error.status || 500}
+  p #{error.message || 'Something went wrong!'}
+
+  img(src='/static/images/error_500.jpg', alt='Error image')
