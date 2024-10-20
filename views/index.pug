@@ -1,0 +1,19 @@
+extends layout.pug
+
+block content
+
+  article.portfolio-intro
+
+    h1 This is only the start! 
+
+    p Take a look at the first projects of my software engineering journey!
+
+
+  article.portfolio-project-thumbs
+    .projects-box.box.grid
+      each project in projects
+        .cell
+          a(href= `/projects/${project.id}`)
+            img.thumbnail(src=`/static/${project.image_urls[0]}`, alt=`${project.project_name} Thumbnail`)
+            h5= project.project_name
+
