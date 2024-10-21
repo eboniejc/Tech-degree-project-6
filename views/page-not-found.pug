@@ -1,10 +1,6 @@
 extends layout.pug
 
 block content
-  nav.nav
-    a(href='/')
-      span &larr;
-      |  Back
-  
-  h1 Error #{error.status || 404}
-  p #{error.message || 'Page not found!'}
+  h1 Page Not Found (Error #{error.status || 404})
+  p #{error.message || 'The page you are looking for does not exist.'}
+  a(href='/') Go back to the homepage

@@ -12,7 +12,7 @@ const aboutRoute = require('./routes/about');
 const projectRoute = require('./routes/projects')
 
 
-app.use('/', mainRoutes);
+app.use('/', mainRoutes); 
 app.use('/about', aboutRoute);
 app.use('/projects', projectRoute);
 
@@ -26,7 +26,7 @@ app.use((req, res, next) => {
 //global error handler  
 app.use((err, req, res, next) => {
     err.status = err.status || 500;
-    err.message = err.message || 'Server Error'
+    err.message = err.message || 'Server Error';
     console.log(`Error ${err.status}: ${err.message}`);//log error message for debugging(keep in)
     //error page-not-found.pug
     if (err.status === 404) {
